@@ -4,7 +4,7 @@ LOCAL_MODULE    := drm_displaybmp
 LOCAL_SRC_FILES := drm_useADDFB.cpp
 
 LOCAL_CFLAGS := -O2 -fvisibility=hidden -fdata-sections -ffunction-sections -fPIE -Wall -Wextra
-LOCAL_CPPFLAGS := -std=c++11
+LOCAL_CPPFLAGS := -std=c++17
 LOCAL_LDFLAGS := -static \
                  -Wl,--gc-sections \
                  -Wl,-z,max-page-size=4096 \
